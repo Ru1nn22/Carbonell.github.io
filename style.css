@@ -341,7 +341,7 @@ h2:hover{
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    background-color: #1c222ef;
+    background-color: #1c222e;
     border-top: 1px solid #e5e5e5;
 }
 .footer > * {
