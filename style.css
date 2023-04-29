@@ -121,6 +121,7 @@ a {
         width: auto;
         order: 1;
         display: block;
+        padding-left: 55px; 
     }
     .toggle {
         flex: 1;
@@ -138,6 +139,7 @@ a {
     }
     .button.secondary {
         border: 0;
+        padding-left: 10px;
     }
     .button.secondary a {
         background: transparent;
@@ -193,18 +195,19 @@ video{
 section{
     background-image: url(img/soldier.jpg.png);
     object-fit: cover;
-    background-repeat: no-repeat;
 }
 .s-container{
-    padding-left: 45rem;
+    margin-left: auto;
 }
 .s-container1{
     text-align: center;
-    width: 400px;
+    width: 100%;
+    margin: auto;
 }
 .s-container1 h1{
     font-size: 60px;
     text-shadow: 1px 1px #ffffff;
+
 }
 .s-container1 p{
     font-size: 28px;
@@ -220,11 +223,17 @@ button{
     color:rgb(0, 0, 0);
     text-shadow: 1px 1px #ffffff;
 }
+@media all and (min-width: 768px){
+   .s-container1{
+    margin:0;
+    }
+    video{
+        height: 950px;
+    }
+}
 summary{
     font-size: 68px;
-    padding: 40px;
-    align-items: center;
-    vertical-align: center;
+    margin: auto;
 }
 summary h2{
     font-size: 16px;
